@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/home.css">
+    <title>Lista de Tarefas</title>
+
+    <!-- ICONS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- PRINCIPAL -->
+    <main>
+        <section class="tarefas">
+            <h2>Lista de Tarefas</h2>
+            <section class="menu-bar">
+                <button class="addTask">Adicionar Tarefa</button>
+                <input type="text" class="findTask" placeholder="Busque uma tarefa..">
+                <button aria-label="Filtrar tarefas" class="btn-filter"><i class="bi bi-filter"></i></button>
+            </section>
+        </section>
+
+        <!-- MODAL DE TAREFA -->
+        <div class="modal-task">
+            <div class="modal-content">
+                <h2>Adicionar Tarefa</h2>
+                <input type="text" class="nameTask" placeholder="Digite o nome da tarefa">
+                <input type="text" class="descripTask" placeholder="Digite a descrição da tarefa">
+                <button class="submit">Adicionar</button>
+            </div>
+        </div>
+
+        <!-- LISTA DE TAREFAS -->
+        <div class="list-tasks">
+            <!-- As tarefas serão inseridas pelo JS aqui -->
+        </div>
+
+        <!-- SEÇÃO CASO NÃO HAJA TAREFAS ADICIONADAS -->
+        <div class="notFound">
+            <div class="content">
+                <i class="bi bi-inboxes"></i>
+                <h2>Não há tarefas adicionadas!</h2>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="./Javascript/home.js"></script>
+</body>
+
+</html>
