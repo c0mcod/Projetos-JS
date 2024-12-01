@@ -50,7 +50,7 @@ submitTask.addEventListener('click', () => {
         <div class="info">
             <h3>${nomeInput}</h3>
             <p>${descrInput}</p>
-        </div>
+        <div>
             <button class="delete-task">Excluir</button>
     </div>
         `
