@@ -174,10 +174,43 @@ body {
 }
 
 .submit-edit {
-    background-color: #000;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E5E1DA;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-task {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E3E3E3;
+    transition: background-color 0.3s ease;
+}
+
+.edit-task:hover {
+    border: none;
+    background-color: #bbbaba;
+}
+
+.submit-edit:hover {
+    border: none;
+    background-color: #888785;
 }
 
 .close-btn {
+    font-size: 24px;
+    color: #eeeeee;
+    color: #eeeeee;
+    cursor: pointer;
+    background-color: #393E46;
+    border: none;
+}
+
+.close-btn-edit {
     font-size: 24px;
     color: #eeeeee;
     color: #eeeeee;
@@ -234,19 +267,9 @@ body {
     border-radius: 5px;
 }
 
-.bi-moon {
-    color: white;
-    background-color: #222831;
-    border: none;
+.status {
+    padding: 20px;
 }
-
-.dark-btn {
-    background-color: #222831;
-    padding: 2px 10px;
-    border: 1px solid #111;
-    margin-left: 5px;
-}
-
 /* RESPONSIVIDADE */
 
 @media (max-width: 768px) {
